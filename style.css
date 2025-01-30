@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contener{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    /* background-color: aqua; */
+    width:50vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.child{
+    height: 1.5625vw;
+    width: 1.5625vw;
+    border: 1px solid black;
+}
+.child:hover{
+    background-color: #000;
+}
